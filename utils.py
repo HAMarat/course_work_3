@@ -19,7 +19,8 @@ def get_posts_by_user(user_name):
 
 def get_comments_all():
     with open(COMMENTS_PATH, 'r', encoding='utf-8') as file:
-        all_comments = json.load(file)
+        all_comments = []
+        all_comments.extend(json.load(file))
         return all_comments
 
 
@@ -28,9 +29,9 @@ def get_comments_by_post_id(post_id):
     for comment in get_comments_all():
         if comment["post_id"] == post_id:
             comments.append(comment)
-    if comments:
-        return comments
-    return ValueError
+            post_found = True
+    return comments
+    # return ValueError
 
 
 def search_for_posts(query):
