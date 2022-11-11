@@ -32,8 +32,7 @@ def search_for_posts(query):
     return posts_by_query
 
 
-def get_post_by_pk(pk):
+def get_post_content(pk):
     for post in get_posts_all():
         if post["pk"] == pk:
             return post["content"]
-    return ValueError
