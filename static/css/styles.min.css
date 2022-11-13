@@ -233,6 +233,20 @@ textarea {
 	padding: 35px 0 27px
 }
 
+.header__wrapper_1 {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+    -webkit-justify-content: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+    width: 100%;
+    padding: 0px 0 0px
+}
+
 .header__btn-back {
 	position: absolute;
 	left: 5px;
@@ -270,9 +284,22 @@ textarea {
 	display: block
 }
 
+.header__bookmark-btn_1 {
+	position: absolute;
+	right: 0;
+	top: 0px;
+	text-decoration: none;
+	display: inline-block
+}
+
 .header__bookmark-icon {
 	display: inline-block;
 	vertical-align: middle
+}
+
+.header__bookmark-icon_1{
+	display: inline-block;
+	vertical-align: right
 }
 
 .header__bookmark-counter {
@@ -421,7 +448,7 @@ textarea {
 
 .item__bookmark-btn {
 	padding: 0;
-	padding-top: 6px;
+	padding-bottom: 6px;
 	border: none;
 	outline: none;
 	background: none;
