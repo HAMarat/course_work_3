@@ -5,8 +5,8 @@ from utils import get_json_data, get_post_by_post_id, POST_PATH
 # создаем Blueprint для работы с API
 api_request = Blueprint('apip_request', __name__)
 
-#logging.basicConfig(filename='logs/api.log', level=logging.INFO, encoding='utf-8',
-#                    format="%(asctime)s %(levelname)s %(message)s")
+logging.basicConfig(filename='logs/api.log', level=logging.INFO, encoding='utf-8',
+                    format="%(asctime)s %(levelname)s %(message)s")
 
 
 @api_request.route('/posts')
