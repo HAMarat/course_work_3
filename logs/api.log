@@ -6,3 +6,17 @@
 2022-11-12 16:16:44,182 INFO  * Debugger PIN: 111-264-798
 2022-11-12 16:17:11,606 INFO  * Detected change in 'C:\\Users\\smile\\PycharmProjects\\course_work_3\\api_request\\api_request.py', reloading
 2022-11-12 16:17:11,636 INFO  * Restarting with stat
+2022-11-25 23:14:13,646 WARNING  * Debugger is active!
+2022-11-25 23:14:13,653 INFO  * Debugger PIN: 111-264-798
+2022-11-26 12:47:35,929 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1000
+2022-11-26 12:47:35,929 INFO [33mPress CTRL+C to quit[0m
+2022-11-26 12:47:35,933 INFO  * Restarting with stat
+2022-11-26 12:47:36,204 WARNING  * Debugger is active!
+2022-11-26 12:47:36,210 INFO  * Debugger PIN: 111-264-798
+2022-11-26 12:47:42,497 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1000
+2022-11-26 12:47:42,497 INFO [33mPress CTRL+C to quit[0m
+2022-11-26 12:47:42,503 INFO  * Restarting with stat
+2022-11-26 12:47:42,820 WARNING  * Debugger is active!
+2022-11-26 12:47:42,830 INFO  * Debugger PIN: 111-264-798
