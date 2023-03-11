@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 WorkingDirectory=/home/smile/course_work_3
-ExecStart=/home/smile/course_work_3/venv/bin/python run.py
+ExecStart=/home/smile/course_work_3/venv/bin/python app.py
 
 [Install]
 WantedBy=multi-user.target
