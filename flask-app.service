@@ -1,0 +1,10 @@
+[Unit]
+Description=flask app service
+After=network.target
+
+[Service]
+WorkingDirectory=/home/smile/course_work_3
+ExecStart=/home/smile/course_work_3/venv/bin/python run.py
+
+[Install]
+WantedBy=multi-user.target
